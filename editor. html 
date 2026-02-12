@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Editor</title>
+<link rel="stylesheet" href="assets/css/style.css">
+<script src="https://unpkg.com/grapesjs/dist/grapes.min.js"></script>
+<link href="https://unpkg.com/grapesjs/dist/css/grapes.min.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="gjs" style="height:90vh;"></div>
+<button onclick="saveProject()">Save</button>
+<button onclick="publishSite()">Publish</button>
+<script src="assets/js/editor.js"></script>
+</body>
+</html>
