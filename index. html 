@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PixelForge</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<h1>Welcome to PixelForge Ultimate</h1>
+<a href="editor.html">Open Editor</a><br>
+<a href="dashboard.html">Dashboard</a>
+</body>
+</html>
