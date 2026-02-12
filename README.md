@@ -1,20 +1,13 @@
-# Pixelforge
+# PixelForge Ultimate Full Version
 
-Welcome to Pixelforge! This is a web project.
+Features:
+- Drag & Drop Editor (GrapesJS)
+- Save Projects
+- One-click Publish
+- Plugin Marketplace Structure
+- Dashboard
+- Node Backend
 
-## Description
-Add your project description here.
-
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
-
-## Installation
-Instructions for installing and setting up the project.
-
-## Usage
-How to use this project.
-
-## License
-Add your license information here.
+Run:
+npm install express body-parser
+node server/server.js
