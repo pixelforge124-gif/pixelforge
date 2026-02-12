@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+<h2>Saved Projects</h2>
+<div id="projects"></div>
+<a href="editor.html">Create New Project</a>
+</body>
+</html>
