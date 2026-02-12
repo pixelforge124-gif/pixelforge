@@ -1,0 +1,19 @@
+const editor = grapesjs.init({
+container:'#gjs',
+height:'100%',
+storageManager:false
+});
+
+function saveProject(){
+const html = editor.getHtml();
+fetch('/save-project',{method:'POST',headers:{'Content-Type':'application/json'},
+body:JSON.stringify({html})})
+.then(res=>res.json())
+.then(data=>alert(data.message));
+}
+
+function publishSite(){
+fetch('/deploy',{method:'POST'})
+.then(res=>res.json())
+.then(data=>alert(data.url));
+}
